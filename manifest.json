@@ -1,0 +1,17 @@
+{
+  "name": "Forrst Next Previous Keyboard Shortcuts",
+  "version": "1.0",
+  "description": "Add Next Previous Keyboard Shortcuts for navigating Forrst feeds.",
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "permissions": [
+    "http://forrst.com/*"
+  ],
+  "content_scripts":[
+	{	
+		"matches": ["http://forrst.com/*"],
+		"js": ["jquery.js", "forrstNextPrev.js"]
+	}
+   ]
+}
