@@ -1,11 +1,16 @@
 var currentPost = -1;
 
 $(document).keydown(function(event){
+	var element = event.target.nodeName.toLowerCase();	
 	if(event.which === 78){
-		nextPost();
+		if (element != 'input' && element != 'textarea') {
+			nextPost();
+		}
 	}
 	if(event.which === 80){
-		prevPost();
+		if (element != 'input' && element != 'textarea') {
+			prevPost();
+		}
 	}
 } );
 
