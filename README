@@ -1,0 +1,19 @@
+---------------------------------------------------------------------------------------------------------------------------------------------------
+What is this?
+---------------------------------------------------------------------------------------------------------------------------------------------------
+This is a Google Chrome extension that adds next/previous keyboard shortcuts to http://forrst.com.
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+How to use?
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+Step 1: Download files from github and add them to a folder.
+
+Step 2: Open Google Chrome.
+
+Step 3: Go to Tools > Extensions in chrome and check the Developer mode checkbox
+
+Step 4: Click "Load unpacked extension..." and open the folder from Step 1
+
+Step 5: Go to Forrst.com and enjoy using 'n' and 'p' to navigate posts
